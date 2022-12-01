@@ -4,10 +4,8 @@ import Logo from "./logoawf.svg";
 import './Navbar.css'
 
 const Navbar = () => {
-
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-1 text-center">
+      <nav className="navbar navbar-expand-lg bg-light py-1 text-center">
         <div className="container">          
           <a href="#Texto1" className="navbar-brand">
             <img src={Logo} alt="logoawf" className="p-0 m-0 logo-img"/>            
@@ -24,25 +22,28 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a href="#Texto1" className="nav-link">
-                  Log in
+                  Productos
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#Texto2" className="nav-link">
-                  Lista de deseados
+                  Quienes somos
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#Texto3" className="nav-link">
-                  Nosotros
+                <a href="#Texto2" className="nav-link">
+                  Contacto
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="/" className="nav-link">
+                  <CartWidget />
                 </a>
               </li>
             </ul>
-            <CartWidget />
           </div>
         </div>
       </nav>
-    </div>
   );
 };
 

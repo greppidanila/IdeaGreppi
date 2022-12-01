@@ -6,7 +6,7 @@ const ItemListContainer = (props) => {
     return (
     <div className="item-list-container">
         <div>
-            <p className="m-2 fs-5 badge bg-danger text-wrap">Bienvenido, {greeting}!</p>
+            <p className="m-2 fs-5 badge text-wrap">Bienvenida {greeting}!</p>
         </div>
     </div>
     );
