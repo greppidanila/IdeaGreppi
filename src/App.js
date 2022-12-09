@@ -1,15 +1,22 @@
-import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import React from "react"
+import "./App.css"
+import {BrowserRouter as Router, Switch} from "react-router-dom";
+import Header from "./components/Header/Header";
 
 function App() {
+  
   return (
-    <div>
-      <Navbar/>
-      <ItemListContainer greeting='Danila'/> 
-    </div>
+    <>
+      <Router>
+        <Header />
+        <Switch>
+          {/* <Route path="/" exact>
+            <About />
+          </Route> */}
+        </Switch>
+      </Router>
+    </>
   );
 }
 
 export default App;
-
