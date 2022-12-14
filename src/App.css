@@ -44,6 +44,9 @@ li {
 .capitalize {
   text-transform: capitalize;
 }
+.RText{
+  text-align: right;
+}
 input,
 button {
   border: none;
@@ -71,6 +74,7 @@ button {
   width: 77%;
 }
 .category {
+  width: 23%;
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
   background-color: #fff;
   width: 23%;
@@ -94,13 +98,13 @@ button {
   padding: 0 20px;
 }
 .category .box:hover {
-  background-color: #ffe1e6;
+  background-color: #b3b3f8;
   cursor: pointer;
 }
 
 /*---------category----------*/
 .btn-primary {
-  background: #e94560;
+  background: #0007da;
   padding: 13px 40px;
   font-weight: bold;
   color: #fff;
@@ -113,14 +117,14 @@ button {
   margin-top: 40px;
 }
 .heading i {
-  color: #e94560;
+  color: #0007da;
   margin: 10px;
 }
 .discount {
   position: absolute;
   top: 0;
   left: 0;
-  background: #e94560;
+  background: #0007da;
   padding: 3px 10px;
   font-size: 12px;
   border-radius: 50px;
@@ -148,11 +152,11 @@ button {
 .product .price {
   display: flex;
   justify-content: space-between;
-  color: #e94560;
+  color: #0007da;
 }
 .price button {
   background: none;
-  color: #e94560;
+  color: #0007da;
   font-size: 20px;
   transition: 0.5s;
   border: 1px solid rgb(3 0 71 / 9%);
@@ -162,7 +166,7 @@ button {
 }
 .price button:hover {
   cursor: pointer;
-  background-color: #e94560;
+  background-color: #0007da;
   color: #fff;
 }
 .product-like {
@@ -215,7 +219,7 @@ button {
 }
 .control-btn .prev:hover,
 .control-btn .next:hover {
-  background: #e94560;
+  background: #0007da;
   color: white;
   cursor: pointer;
 }

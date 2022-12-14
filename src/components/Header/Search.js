@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css"
-import logo from "../assets/logo.svg"
+import logo from "../assets/logos/logo.svg"
 import {Link} from "react-router-dom"
 
 const Search = () => {
@@ -28,7 +28,7 @@ const Search = () => {
                         <i className='fa fa-user icon-circle'></i>
                         <div className='cart'>
                             <Link to='/cart'>
-                                <i className="fa icon-circle fa-sharp fa-solid fa-cart-shopping"></i>
+                                <i className="fa icon-circle fa-sharp fa-solid fa-shopping-bag"></i>
                                 {/* <span>{CartWidget.length === 0 ? "" : CartWidget.length}</span> */}
                             </Link>
                         </div>

@@ -102,6 +102,8 @@ header ul li a {
 }
 header ul li a:hover {
     color: #0007da;
+    border-bottom: 2px solid #0007da;
+    font-weight: bold;
 }
 
 .open {
@@ -142,7 +144,7 @@ header ul li a:hover {
         text-transform: uppercase;
         line-height: 70px;
     }
-    header .link {
+    header .navlink {
         display: none;
     }
     .close,

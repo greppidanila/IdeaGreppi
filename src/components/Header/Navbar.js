@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 
 const Navbar = () => {
 
@@ -19,19 +19,19 @@ const Navbar = () => {
           <div className="navlink">
             <ul className={MobileMenu ? "nav-links-MobileMenu" : "link f_flex capitalize"} onClick={() => setMobileMenu (false)}>
               <li>
-                <Link to="/">Home</Link>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <Link to="/faqs">Preguntas Frecuentes</Link>
+                <NavLink to="/cart">Cart</NavLink>
               </li>
               <li>
-                <Link to="/whoWeAre">Quiénes Somos</Link>
+                <NavLink to="/checkout">Checkout</NavLink>
               </li>
               <li>
-                <Link to="/track">Seguimiento de pedido</Link>
+                <NavLink to="/track">Seguimiento de pedido</NavLink>
               </li>
               <li>
-                <Link to="/contact">Contacto</Link>
+                <NavLink to="/contact">Contacto</NavLink>
               </li>
             </ul>
 
