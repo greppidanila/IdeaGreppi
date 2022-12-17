@@ -29,7 +29,7 @@ const Search = () => {
                         <div className='cart'>
                             <Link to='/cart'>
                                 <i className="fa icon-circle fa-sharp fa-solid fa-shopping-bag"></i>
-                                {/* <span>{CartWidget.length === 0 ? "" : CartWidget.length}</span> */}
+                                <span>0 </span>
                             </Link>
                         </div>
                     </div>
