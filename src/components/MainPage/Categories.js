@@ -8,7 +8,8 @@ const Categories = () => {
         },
         {
             cateImg: "../assets/images/category1.png",
-            cateName: "Bancos de Ejercicio"
+            cateName: "Bancos de Ejercicio",
+            cateSubName: ["Banco Plegable con rack", "Banco Multiangular", "Banco Plano"]
         },
         {
             cateImg: "../assets/images/category1.png",
@@ -34,8 +35,7 @@ const Categories = () => {
                         return(
                             <div className="box f_flex" key ={index}>
                                 <img src={value.cateImg} alt="" />
-                                <span>{value.cateName}
-                                </span>
+                                <span> {value.cateName}</span>
                             </div>
                         )
                     } )
