@@ -17,6 +17,11 @@
     padding: 20px 0;
 }
 
+.search .logo img {
+    width: auto;
+    height: auto;
+}
+
 .search .width {
     width: 20%;
 }
@@ -70,7 +75,7 @@
     background-color: #f6f9fc;
     padding: 0px 30px;
     border-radius: 5px;
-    height: 8vh;
+    height: 6vh;
     margin-top: 5px;
 }
 .categories span {
@@ -133,7 +138,7 @@ header ul li a:hover {
         left: 0;
         top: 0;
         transition: all 0.5s ease-in-out;
-        width: 60%;
+        width: 100%;
         height: 100vh;
         background-color: white;
         z-index: 888;
@@ -158,10 +163,14 @@ header ul li a:hover {
         z-index: 999;
     }
     .open{
+        position: absolute;
         top:18%;
         right:30px;
         background: #0007da;
         color: white;
+        display: block;
+        font-size: 25px;
+        z-index: 999;
     }
     .close {
         right: 45%;

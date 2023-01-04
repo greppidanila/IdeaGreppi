@@ -11,7 +11,7 @@ const Search = () => {
     })
 
     return (
-        <div>
+        <>
             <section className="search">
                 <div className="container c_flex">
                     <div className="logo width">
@@ -28,14 +28,14 @@ const Search = () => {
                         <i className='fa fa-user icon-circle'></i>
                         <div className='cart'>
                             <Link to='/cart'>
-                                <i className="fa icon-circle fa-sharp fa-solid fa-shopping-bag"></i>
+                                <i className="fa icon-circle fa-shopping-bag"></i>
                                 <span>0 </span>
                             </Link>
                         </div>
                     </div>
                 </div>
             </section>
-        </div>
+        </>
     )
 }
 
