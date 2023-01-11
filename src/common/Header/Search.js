@@ -1,9 +1,8 @@
 import React from 'react'
-import "./Header.css"
 import logo from "../assets/logos/logo.svg"
 import {Link} from "react-router-dom"
 
-const Search = () => {
+const Search = ({cartItem}) => {
     // fijar Header
     window.addEventListener("scroll", function () {
         const search = document.querySelector(".search")
@@ -15,7 +14,7 @@ const Search = () => {
             <section className="search">
                 <div className="container c_flex">
                     <div className="logo width">
-                        <img src={logo} alt="logo de aguila" />
+                    <img src={logo} alt="logo de aguila"/>
                     </div>
 
                     <div className='search-box f_flex'>
@@ -29,7 +28,7 @@ const Search = () => {
                         <div className='cart'>
                             <Link to='/cart'>
                                 <i className="fa icon-circle fa-shopping-bag"></i>
-                                <span>0 </span>
+                                <span>{cartItem.length === 0 ? "" : cartItem.length } </span>
                             </Link>
                         </div>
                     </div>
